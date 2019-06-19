@@ -1,4 +1,4 @@
-.body {
+body {
     background-image: url("Images/cs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,3 +55,18 @@ ul.topnav li a {
     font-family: 'Nunito', sans-serif;
 }
 
+footer {
+    font-size: smaller;
+    position: static;
+    padding-top: 25%;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding-bottom: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #ffffff;
+}
+
+.center {
+    text-align: center;
+}
