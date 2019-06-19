@@ -70,3 +70,26 @@ footer {
 .center {
     text-align: center;
 }
+
+.main {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 25pt;
+    padding-top: 10%;
+}
+
+.uiuc_blue {
+    color: blue;
+}
+
+.uiuc_orange {
+    color: orange;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.coder_green {
+    color: greenyellow;
+}
