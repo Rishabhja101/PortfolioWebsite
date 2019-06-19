@@ -2,20 +2,56 @@
     background-image: url("Images/cs.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  div.ex1 {
+div.ex1 {
     overflow: scroll;
-  }
+}
   
-  div.ex2 {
+div.ex2 {
     overflow: hidden;
-  }
+}
   
-  div.ex3 {
+div.ex3 {
     overflow: auto;
-  }
+}
   
-  div.ex4 {
+div.ex4 {
     overflow: visible;
-  }
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
