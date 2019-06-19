@@ -79,17 +79,18 @@ footer {
     color: white;
     font-size: 35pt;
     background-color: black;
+    border-color: #32CD32;
+    border-style: solid;
+    border-width: 2px;
     width: fit-content;
     display: inline-block;
     padding: 10px
 }
 
-.uiuc_blue {
-    color: blue;
-}
-
-.uiuc_orange {
-    color: orange;
+.uiuc {
+    color: #13294b;
+    -webkit-text-stroke-color: #E84A27;
+    -webkit-text-stroke-width: 0.7px;
 }
 
 .bold {
