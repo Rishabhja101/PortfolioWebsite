@@ -2,17 +2,18 @@ body {
     background-image: url("Images/uiuc_engineering.JPG");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 .dark {
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.2);
+    z-index: -1;
 }
 
 div.ex1 {
@@ -98,10 +99,10 @@ footer {
 .main {
     color: white;
     font-size: 35pt;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.3); */
     /* border-color: #32CD32; */
-    /* border-style: solid;
-    border-width: 2px; */
+    /* border-style: solid; */
+    /* border-width: 2px;  */
     width: fit-content;
     display: inline-block;
     padding: 10px
@@ -118,5 +119,5 @@ footer {
 }
 
 .coder_green {
-    color: #32CD32;
+    color: rgb(158, 255, 89);
 }
