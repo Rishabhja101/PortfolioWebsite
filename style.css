@@ -4,6 +4,17 @@ body {
     background-size: cover;
 }
 
+.dark {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 div.ex1 {
     overflow: scroll;
 }
@@ -43,10 +54,7 @@ ul {
 
 ul.topnav li {
     float: left;
-    background-color: black;
-    border-color: #32CD32;
-    border-style: solid;
-    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 ul.topnav li a {
@@ -54,9 +62,21 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: #32CD32;
+    /* color: #32CD32; */
+    color: #E84A27;
+    -webkit-text-stroke-color: #13294b;
+    -webkit-text-stroke-width: 1px;
+    font-size: 15pt;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
+}
+
+ul.topnav li:hover { 
+    background-color: rgba(50, 205, 50, 0.4);
+}
+
+ul.topnav li:active { 
+    background-color: rgba(50, 205, 50, 0.7);
 }
 
 footer {
@@ -78,10 +98,10 @@ footer {
 .main {
     color: white;
     font-size: 35pt;
-    background-color: black;
-    border-color: #32CD32;
-    border-style: solid;
-    border-width: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* border-color: #32CD32; */
+    /* border-style: solid;
+    border-width: 2px; */
     width: fit-content;
     display: inline-block;
     padding: 10px
